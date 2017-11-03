@@ -1,0 +1,18 @@
+diff --git a/modules/ultimenu/ultimenu.module b/modules/ultimenu/ultimenu.module
+index e880f369..4c40a54c 100644
+--- a/modules/ultimenu/ultimenu.module
++++ b/modules/ultimenu/ultimenu.module
+@@ -110,8 +110,8 @@ function ultimenu_page_bottom(array &$page_bottom) {
+ /**
+  * Implements hook_preprocess_region().
+  */
+-function ultimenu_preprocess_region(&$variables) {
+-  if (strpos($variables['region'], 'ultimenu_') !== FALSE) {
+-    $variables['attributes']['class'][] = 'ultimenu__region';
+-  }
+-}
++//function ultimenu_preprocess_region(&$variables) {
++ // if (strpos($variables['region'], 'ultimenu_') !== FALSE) {
++ //   $variables['attributes']['class'][] = 'ultimenu__region';
++ // }
++//}
